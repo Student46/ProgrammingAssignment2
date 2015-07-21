@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 ## Coursera R Programming
 ## Assignment 2
 ## Colin McNicholl
 ## 21-07-2015
+=======
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 ## Put comments here that give an overall description of what your
 ## functions do
 
 ## Write a short comment describing this function
+<<<<<<< HEAD
 #In this eg the <<- operator which can be used to assign a value to an object in an
 #environment that is different from the current environment.
 #Below are two functions that are used to create a special object that stores a numeric
@@ -45,4 +49,16 @@ cacheSolve <- function(x, ...) {
     m <- solve(data, ...)
     x$setinv(m)
     m
+=======
+
+makeCacheMatrix <- function(x = matrix()) {
+
+}
+
+
+## Write a short comment describing this function
+
+cacheSolve <- function(x, ...) {
+        ## Return a matrix that is the inverse of 'x'
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 }
